@@ -74,9 +74,3 @@ def find_favorite(array_of_hash_objects)
   end
   return nil
 end
-
-puts find_favorite([
-  { name: 'JavaScript', is_my_favorite?: false },
-  { name: 'Ruby', is_my_favorite?: true },
-  { name: 'HTML', is_my_favorite?: false }
-])
